@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 232168415}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -316,11 +316,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca3f3ad8e53a164084372273ecbe268, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 5
+  jumpHeight: 5
+  jumpSpeed: 2
   isGrounded: 0
-  health: 0
-  atkDMG: 0
-  rb: {fileID: 0}
+  health: 3
+  atkDMG: 1
 --- !u!1 &398676475
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,7 +465,7 @@ GameObject:
   - component: {fileID: 538482944}
   m_Layer: 0
   m_Name: NotebookLine (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -594,7 +595,7 @@ GameObject:
   - component: {fileID: 613892582}
   m_Layer: 0
   m_Name: NotebookLine (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -724,7 +725,7 @@ GameObject:
   - component: {fileID: 984228785}
   m_Layer: 0
   m_Name: NotebookLine
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -854,7 +855,7 @@ GameObject:
   - component: {fileID: 1124840718}
   m_Layer: 0
   m_Name: NotebookLine (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -984,7 +985,7 @@ GameObject:
   - component: {fileID: 1321887777}
   m_Layer: 0
   m_Name: NotebookLine (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1114,7 +1115,7 @@ GameObject:
   - component: {fileID: 1406643583}
   m_Layer: 0
   m_Name: NotebookLine (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1244,7 +1245,7 @@ GameObject:
   - component: {fileID: 1769844433}
   m_Layer: 0
   m_Name: NotebookLine (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
